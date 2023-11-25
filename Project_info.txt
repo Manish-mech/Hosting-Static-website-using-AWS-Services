@@ -1,0 +1,16 @@
+- APPLICATION FOLDER
+IMages folder hold necessary Images for the Static website template
+
+index.html - Main HTML file which get executed when web browser request for the static website.
+
+Error.html - This file get executed when there is any error occur.
+
+script.js - Java script file responsible for functionality of our Website.
+
+Style.css - CSS file which format and style our website properly.
+
+- TERRAFORM FOLDER
+
+static_hosting.tf - Terraform configuration file, used to provision S# bucket in AWS provicer.
+
+The rest are terraform important file, such as state maintaining file and backup created etc.
