@@ -1,0 +1,160 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* ... (existing styles) ... */
+
+/* Style the sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Start off-canvas */
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    overflow-y: scroll;
+    z-index: 1;
+    transition: left 0.3s;
+}
+
+.menu-icon {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #301c1c;
+}
+
+/* Style the sidebar menu items */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* ... (existing styles) ... */
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between; /* Align content to both edges */
+    align-items: center; /* Center items vertically */
+    padding: 20px;
+    background-color: #f5f5dc; /* Change to a greyish creamy color */
+    color: #fff;
+    max-width: 1200px; /* Set a maximum width for the header */
+    margin: 0 auto; /* Center the header horizontally */
+    width: 100%; /* Span the header across the entire width of the screen */
+    box-sizing: border-box; /* Include padding and borders in the width */
+}
+
+/* Header content styles */
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+/* Text information styles */
+.text-info {
+    margin-left: 100px; /* Add spacing between text and image */
+}
+
+.text-info h1 {
+    font-size: 36px;
+    margin-bottom: 5px; /* Adjust margin for better spacing */
+    font-weight: bold;
+    color: #000; /* Black color for the name */
+}
+
+.text-info h2 {
+    font-weight: bold;
+    color: #888; /* Grey color for other information */
+}
+
+/* Image styles */
+.header-content img {
+    width: 100px; /* Adjust image width as needed */
+    height: 100px; /* Adjust image height as needed */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image covers the container */
+}
+
+
+
+/* Style the image */
+header img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+/* Projects section styles */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Adjust project image size */
+.project img {
+    max-width: 100%; /* Ensures the image doesn't exceed its container */
+    height: auto; /* Maintains aspect ratio */
+}
+
+/* Style sections */
+section {
+    margin: 20px;
+}
+
+/* Style section headings */
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style the list items */
+ul {
+    list-style: none;
+}
+
+/* Add some spacing between list items */
+li {
+    margin-bottom: 5px;
+}
+
+/* Add more specific styles as needed */
+
+/* Button styles */
+.details-button {
+    display: block;
+    width: 100px;
+    text-align: center;
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.details-button:hover {
+    background-color: #0056b3;
+}
